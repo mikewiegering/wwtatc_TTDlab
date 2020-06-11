@@ -5,7 +5,7 @@ import unittest
 from unittest.mock import MagicMock, patch
 
 class TestDivisorApp(unittest.TestCase):
-    pass
+
 
 
     def setUp(self):
