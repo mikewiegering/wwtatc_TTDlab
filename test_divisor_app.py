@@ -5,11 +5,11 @@ import inittest
 from unittest.mock import MagicMock, patch
 
 class TestDivisorApp(unittest.TestCase):
-
+    pass
 
 
     def setUp(self):
-        self.divisors = Divosors()
+        self.divisors = divisors_app.Divosors()
 
     # Take unput from user- set_user_num
     def test_set_user_num(self):
