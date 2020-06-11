@@ -9,7 +9,7 @@ class TestDivisorApp(unittest.TestCase):
 
 
     def setUp(self):
-        self.divisors = divisors_app.Divosors()
+        self.divisors = Divosors()
 
     # Take unput from user- set_user_num
     def test_set_user_num(self):
