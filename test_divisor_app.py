@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 from divisors_app import *
-import inittest
+import unittest
 from unittest.mock import MagicMock, patch
 
 class TestDivisorApp(unittest.TestCase):
