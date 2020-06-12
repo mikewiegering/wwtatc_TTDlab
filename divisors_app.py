@@ -9,4 +9,4 @@ class Divisors:
     def set_user_num(self):
         self.user_num = int(input("Enter a natural number: "))
 
-    def generate_divisors(self):
+    # def generate_divisors(self):
