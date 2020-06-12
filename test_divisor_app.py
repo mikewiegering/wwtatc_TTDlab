@@ -18,4 +18,11 @@ class TestDivisorApp(unittest.TestCase):
             self.divisors.set_user_num()
         self.assertEqual(self.divisors.user_num, expected_num)
 
-
+    # generate divisors and store in object
+    def test_generate_divisors(self):
+        control_number = 10
+        expected_divisors = [1,2,5,10]
+        with patch('builtins.input', side_effect=[control_number]):
+            self.divisors.set_user_num()
+            self.divisors.generate_divisors()
+        self.assertEqual(self.divisors.divisors, expected_divisors)
